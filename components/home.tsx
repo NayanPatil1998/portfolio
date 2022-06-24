@@ -33,7 +33,7 @@ const HomePage: React.FC<HomeProps> = () => {
         <div className="text-4xl md:text-5xl ">
           {" "}
           <h1 className="text-center lg:text-left font-bold">
-            Hi, I'm <span className="text-primary"> {UserData.name}. </span>
+            Hi, I&apos;m <span className="text-primary"> {UserData.name}. </span>
           </h1>
           <h1 className="text-center lg:text-left font-bold">
             <Typewriter

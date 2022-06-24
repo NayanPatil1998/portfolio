@@ -4,7 +4,7 @@ export const UserData = {
     linkedin: "https://www.linkedin.com/in/nayanpatil96/",
     github: "https://github.com/NayanPatil1998",
     twitter: "https://twitter.com/Nayanp960478",
-    resume: "https://www.linkedin.com/in/nayanpatil96/",
+    resume: "https://drive.google.com/file/d/1yBjyGtNpkHA678jc9szKploZl3HWWG-j/view?usp=sharing",
   },
   experience: [
     {
