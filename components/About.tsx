@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import { UserData } from "../helpers/data";
 
 interface AboutProps {}
 
@@ -29,11 +30,11 @@ const About: React.FC<AboutProps> = () => {
           </div>
 
           <div className="flex space-x-4" >
-          <button className="text-left rounded-md py-2 px-6 border-2 border-solid border-white hover:bg-white hover:text-primary">
+          <a rel="noopener noreferrer" target="_blank" href={UserData.social.resume} className="text-left rounded-md py-2 cursor-pointer px-6 border-2 border-solid border-white hover:bg-white hover:text-primary">
               <p style={{ fontSize: "1.2rem" }} className="text-lg font-bold">
                 Resume
               </p>
-            </button>
+            </a>
 
             <button onClick={() => router.push('mailto:patil.nayan04@gmailcom')} className="text-left rounded-md py-2 px-6 border-2 border-solid border-white hover:bg-white hover:text-primary">
               <p style={{ fontSize: "1.2rem" }} className="text-lg font-bold">
