@@ -3,8 +3,8 @@ export const UserData = {
   social: {
     linkedin: "https://www.linkedin.com/in/nayanpatil96/",
     github: "https://github.com/NayanPatil1998",
-    twitter: "https://twitter.com/Nayanp960478",
-    resume: "https://drive.google.com/file/d/1yBjyGtNpkHA678jc9szKploZl3HWWG-j/view?usp=sharing",
+    mail: "mailto:patil.nayan04@gmail.com",
+    resume: "https://drive.google.com/file/d/1u6v_Wp02J8UQEpqflxQroh5bxQqN3zwx/view?usp=sharing",
   },
   experience: [
     {

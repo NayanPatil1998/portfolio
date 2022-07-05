@@ -1,5 +1,6 @@
 import React from "react";
-import { FaLinkedinIn, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaMailBulk } from "react-icons/fa";
+import {MdOutgoingMail} from "react-icons/md"
 import { IoIosDocument } from "react-icons/io";
 import { UserData } from "../helpers/data";
 import SocialIcons from "./SocialIcon";
@@ -21,8 +22,8 @@ const HomePage: React.FC<HomeProps> = () => {
           link={UserData.social.github}
         />
         <SocialIcons
-          icon={<FaTwitter size={32} />}
-          link={UserData.social.twitter}
+          icon={<MdOutgoingMail size={32} />}
+          link={UserData.social.mail}
         />
         <SocialIcons
           icon={<IoIosDocument size={32} />}
