@@ -4,7 +4,7 @@ export const UserData = {
     linkedin: "https://www.linkedin.com/in/nayanpatil96/",
     github: "https://github.com/NayanPatil1998",
     mail: "mailto:patil.nayan04@gmail.com",
-    resume: "https://drive.google.com/file/d/1u6v_Wp02J8UQEpqflxQroh5bxQqN3zwx/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1TCWb3lGKWYPCDGZgAQQEs3P7CF45wPx1/view?usp=sharing",
   },
   experience: [
     {
@@ -42,7 +42,7 @@ export const UserData = {
     {
       id: 1,
       name: "Lireddit - Social Platform",
-      desc: "Lireddit is Reddit like mobile responsive Social Platform. Users can create an account and log into their account, can create Subreddits, posts, also upvote, downvote posts and comments etc.",
+      desc: "Lireddit is Reddit like mobile responsive Social Platform. Users can create an account and log into their account, can create Subreddits, posts, also upvote, downvote posts and comments etc. (Note - Please wait for 2-3 minute to bootup heroku backend server)",
       stack: [
         "Nextjs",
         "Chakra UI",
@@ -64,7 +64,7 @@ export const UserData = {
     {
       id: 2,
       name: "Code Online - Realtime Collab web code editor",
-      desc: "Code Online is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets. It functions as an online code editor and open-source learning environment, where developers can create code snippets.",
+      desc: "Code Online is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets. It functions as an online code editor and open-source learning environment, where developers can create code snippets. (Note - Please wait for 2-3 minute to bootup heroku backend server)",
       stack: [
         "Nextjs",
         "SocketIO",
