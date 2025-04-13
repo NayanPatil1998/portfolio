@@ -1,11 +1,11 @@
 import React from "react";
-import { FaLinkedinIn, FaGithub, FaMailBulk } from "react-icons/fa";
-import {MdOutgoingMail} from "react-icons/md"
+import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 import { IoIosDocument } from "react-icons/io";
+import { MdOutgoingMail } from "react-icons/md";
+import { Link } from "react-scroll";
+import Typewriter from "typewriter-effect";
 import { UserData } from "../helpers/data";
 import SocialIcons from "./SocialIcon";
-import Typewriter from "typewriter-effect";
-import { Link } from "react-scroll";
 
 interface HomeProps {}
 
@@ -66,7 +66,7 @@ const HomePage: React.FC<HomeProps> = () => {
               </p>
             </div>
           </Link>
-          <Link to="projects" spy={true} smooth={true}>
+          {/* <Link to="projects" spy={true} smooth={true}>
           <div className="py-3 px-6 border-2 border-solid border-primary cursor-pointer text-primary hover:bg-primary hover:text-white">
             <p
               style={{ fontSize: "1.8rem" }}
@@ -75,7 +75,7 @@ const HomePage: React.FC<HomeProps> = () => {
               Projects
             </p>
           </div>
-          </Link>
+          </Link> */}
           <Link to="blogs" spy={true} smooth={true}>
           <div className="py-3 px-6 border-2 border-solid border-primary cursor-pointer text-primary hover:bg-primary hover:text-white">
             <p

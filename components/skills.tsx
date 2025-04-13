@@ -4,18 +4,19 @@ import Image from "next/image";
 import React, { useEffect } from "react";
 import { FaGitAlt, FaReact } from "react-icons/fa";
 import {
+  SiAmazonaws,
   SiChakraui,
   SiDocker,
-  SiExpress,
-  SiFirebase,
   SiFlutter,
-  SiGooglecloud,
-  SiGraphql, SiJavascript,
+  SiGraphql,
+  SiJavascript,
+  SiMongodb,
   SiNodedotjs,
   SiPostgresql,
   SiPwa,
   SiRedux,
-  SiTailwindcss
+  SiTailwindcss,
+  SiTypescript
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 
@@ -98,15 +99,19 @@ const Skills: React.FC<SkillsProps> = () => {
               text="Nodejs"
             />
             <Skill
-              icon={<SiExpress size={30} color="white" />}
-              text="Express"
+              icon={<SiTypescript size={30} color="white" />}
+              text="Typescript"
+            />
+            <Skill
+              icon={<SiMongodb size={30} color="white" />}
+              text="MongoDB"
             />
             <Skill
               icon={
                 <Image
                   src="https://go.dev/blog/go-brand/Go-Logo/SVG/Go-Logo_White.svg"
                   width={35}
-                  height={35}
+                  height={30}
                 />
               }
               text="Golang"
@@ -116,9 +121,10 @@ const Skills: React.FC<SkillsProps> = () => {
               text="Graphql"
             />
             <Skill
-              icon={<SiGooglecloud size={30} color="white" />}
-              text="Google Cloud"
+              icon={<SiAmazonaws size={30} color="white" />}
+              text="AWS"
             />
+          
             <Skill
               icon={<SiPostgresql size={30} color="white" />}
               text="PostgreSQL"
@@ -144,10 +150,10 @@ const Skills: React.FC<SkillsProps> = () => {
             }}
           >
             <Skill icon={<FaGitAlt size={30} color="white" />} text="Git" />
-            <Skill
+            {/* <Skill
               icon={<SiFirebase size={30} color="white" />}
               text="Firebase"
-            />
+            /> */}
             <Skill icon={<SiDocker size={30} color="white" />} text="Docker" />
 
             <Skill icon={<SiPwa size={30} color="white" />} text="PWA" />

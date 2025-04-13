@@ -1,6 +1,6 @@
-import React from "react";
 import Image from "next/image";
 import { useRouter } from "next/router";
+import React from "react";
 import { UserData } from "../helpers/data";
 
 interface AboutProps {}
@@ -17,15 +17,10 @@ const About: React.FC<AboutProps> = () => {
       </h1>
       <div className="flex flex-col space-y-10 lg:space-y-0 lg:flex-row lg:space-x-20 items-center justify-center">
         <Image src="/about.svg" width={300} height={300} />
-        <div className="flex flex-col max-w-md text-white text-lg text-justify space-y-5">
+        <div className="flex flex-col max-w-md lg:max-w-2xl text-white text-lg text-justify space-y-5">
           <div>
             <p>
-              Recent Computer Engineer graduate with passion for developing
-              scalable web applications and working across Full Stack, Currently
-              working as Cloud Developer (Full Stack) at Breez Mobility Inc.
-              <br />
-              Always ready to learn and explore new skills, frameworks and
-              challanges in work and also personal projects.
+            Full stack developer with 3 years of hands-on experience building real-world products that make a difference. I've got a serious passion for diving into new tech—I never stop learning! On the frontend, I craft responsive and intuitive user interfaces with React, while my backend toolkit includes Node.js, TypeScript, and Golang, with Docker keeping everything nicely containerized. These days, I'm getting my hands dirty with AWS cloud services, crafting lambda functions and designing architectures that are both scalable and secure. My approach? Build complete, end-to-end solutions that not only work great today but can grow with tomorrow's demands. I thrive in collaborative environments where I can both contribute my expertise and absorb new knowledge from those around me.
             </p>
           </div>
 

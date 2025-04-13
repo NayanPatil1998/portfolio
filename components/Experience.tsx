@@ -1,6 +1,6 @@
+import AOS from "aos";
 import React, { useEffect } from "react";
 import { UserData } from "../helpers/data";
-import AOS from "aos"
 interface ExperienceProps {}
 
 const Experience: React.FC<ExperienceProps> = () => {
